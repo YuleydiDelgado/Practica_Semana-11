@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro Persona</h1>
+        <h1>Registro Personas</h1>
        
         <form action="recibir.do" method="post">
             <table border='5' width='30%'>
