@@ -44,7 +44,7 @@ public class Persona {
     public Persona(){
         try {
             Class.forName("com.mysql.jdbc.Driver");//Driver de la base de datos
-            cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_recurso_humano?zeroDateTimeBehavior=convertToNul", "root", "");//url de la BD, user, pass
+            cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_recurso_humano1?zeroDateTimeBehavior=convertToNull", "root", "");//url de la BD, user, pass
             //System.out.print("conxion existosa");
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(Persona.class.getName()).log(Level.SEVERE, null, ex);
