@@ -51,16 +51,16 @@ public class Persona {
              //System.out.print("error de conexion");
         }
     }
-    public Persona(String dui, String apellido,String nombre){
+    public Persona(String dui, String apellidos,String nombres){
         this.dui=dui;
-        this.apellidos = apellido;
+        this.apellidos = apellidos;
         this.nombres = nombres;    
     }
     
     
     public boolean insertarDatos(){
         try {
-            String miQuery= "insert into tb_persona values('" + dui + "','" + apellidos + "','" + nombres + "');";
+            String miQuery= "insert into tb_persona1 values('" + dui + "','" + apellidos + "','" + nombres + "');";
             int estado =0;//estado de la insercion
             state=cnn.createStatement();
             estado=state.executeUpdate(miQuery);
@@ -79,7 +79,7 @@ public class Persona {
     public ArrayList<Persona>consultarRegistros(){
         ArrayList<Persona>person=new ArrayList();
         try{
-            String miQuery="select*from tb_persona;";
+            String miQuery="select*from tb_persona1;";
             state=cnn.createStatement();
             result=state.executeQuery(miQuery);
             while(result.next()){

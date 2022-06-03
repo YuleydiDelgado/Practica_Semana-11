@@ -1,3 +1,5 @@
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -6,6 +8,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>registro no guardado!</h1>
+        <h1>Eliminado Con exito</h1>
+        <a href="index.jsp">Volver a la pagina principal</a>
     </body>
 </html>

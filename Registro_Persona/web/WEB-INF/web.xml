@@ -4,9 +4,33 @@
         <servlet-name>Recibir</servlet-name>
         <servlet-class>controlador.Recibir</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Recibir1</servlet-name>
+        <servlet-class>controlador.Recibir1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Modificar</servlet-name>
+        <servlet-class>controlador.Modificar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Actualizar</servlet-name>
+        <servlet-class>controlador.Actualizar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Recibir</servlet-name>
         <url-pattern>/recibir.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Recibir1</servlet-name>
+        <url-pattern>/recibir1.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Modificar</servlet-name>
+        <url-pattern>/modificar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Actualizar</servlet-name>
+        <url-pattern>/actualizar.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
