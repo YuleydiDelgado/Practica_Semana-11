@@ -109,4 +109,4 @@ public class Persona {
             
         
     
-    //Generar los metodos set y get para los atributos
+    //Generar los metodos set y get para los atributos//
